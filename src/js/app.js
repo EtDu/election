@@ -5,7 +5,8 @@ App = {
   hasVoted: false,
 
   init: function() {
-    return App.initWeb3();
+    return App.initWeb3(); 
+    console.log(hi)
   },
 
   initWeb3: function() {
